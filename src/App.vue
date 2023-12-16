@@ -5,7 +5,7 @@
       {{ title }}
       <br />
     </div>
-    Date: {{ updatedDate }}
+    Date: {{ date }}
     <br />
     Day: {{ getDate() }}
     <br />

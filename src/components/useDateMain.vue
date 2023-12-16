@@ -1,15 +1,17 @@
-<!-- useDateComposable.vue -->
+
 <script>
 import { ref } from 'vue';
 
-export default function useDate() {
-  let date = ref(new Date());
+export default function 
 
-  let getDay = () => {
+useDate() {
+  const date = ref(new Date());
+
+  const getDay = () => {
     return date.value.getDay() + 1;
   };
 
-  let getMonth = () => {
+  const getMonth = () => {
     return date.value.getMonth() + 1;
   };
 
